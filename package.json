@@ -24,10 +24,12 @@
     "@medusajs/auth": "preview",
     "@medusajs/auth-emailpass": "preview",
     "@medusajs/cache-inmemory": "preview",
+    "@medusajs/cache-redis": "^1.9.2-preview-20240902060626",
     "@medusajs/cart": "preview",
     "@medusajs/currency": "preview",
     "@medusajs/customer": "preview",
     "@medusajs/event-bus-local": "preview",
+    "@medusajs/event-bus-redis": "^1.8.14-preview-20240902060626",
     "@medusajs/file": "preview",
     "@medusajs/file-local-next": "preview",
     "@medusajs/fulfillment": "preview",
@@ -49,9 +51,7 @@
     "@medusajs/tax": "preview",
     "@medusajs/user": "preview",
     "@medusajs/workflow-engine-inmemory": "preview",
-    "@medusajs/cache-redis": "preview",
-    "@medusajs/event-bus-redis": "preview",
-    "@medusajs/workflow-engine-redis": "preview",
+    "@medusajs/workflow-engine-redis": "^0.0.5-preview-20240902060626",
     "express": "^4.17.2"
   },
   "devDependencies": {
