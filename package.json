@@ -13,6 +13,7 @@
     "medusa"
   ],
   "scripts": {
+    "predeploy": "medusa db:migrate",
     "build": "medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
     "start": "medusa start",
@@ -48,6 +49,9 @@
     "@medusajs/tax": "preview",
     "@medusajs/user": "preview",
     "@medusajs/workflow-engine-inmemory": "preview",
+    "@medusajs/cache-redis": "preview",
+    "@medusajs/event-bus-redis": "preview",
+    "@medusajs/workflow-engine-redis": "preview",
     "express": "^4.17.2"
   },
   "devDependencies": {
